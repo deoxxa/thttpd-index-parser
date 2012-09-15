@@ -1,6 +1,6 @@
 {
   "name": "thttpd-index-parser",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Parse thttpd index pages",
   "main": "index.js",
   "scripts": {
