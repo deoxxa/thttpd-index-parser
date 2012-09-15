@@ -1,0 +1,23 @@
+{
+  "name": "thttpd-index-parser",
+  "version": "0.0.0",
+  "description": "Parse thttpd index pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "vows --spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/deoxxa/thttpd-index-parser.git"
+  },
+  "keywords": [
+    "thttpd",
+    "parser",
+    "http"
+  ],
+  "author": "Conrad Pankoff <deoxxa@fknsrs.biz> (http://www.fknsrs.biz/)",
+  "license": "BSD",
+  "devDependencies": {
+    "vows": "~0.6.4"
+  }
+}
