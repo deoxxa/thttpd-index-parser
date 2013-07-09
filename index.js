@@ -7,7 +7,7 @@ exports.parse = function parse(data) {
     return {
       url: matches[1],
       modified: new Date(matches[3]),
-      size: parseInt(matches[4], 10) || null,
+      size: matches[4].match(/^\d+$/) ? parseInt(matches[4], 10) : null,
     };
   });
 }
